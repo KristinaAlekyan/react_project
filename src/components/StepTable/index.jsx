@@ -26,9 +26,9 @@ function createData(name, step1, step2, step3) {
 }
 
 const useStyles = makeStyles({
-    table: {
-        "& .MuiTableCell-root": {
-            border: 'none'
+table: {
+"& .MuiTableCell-root": {
+border: 'none'
         }
     }
 });

@@ -7,9 +7,9 @@ import Select from '@mui/material/Select'
 import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles((theme) => ({    
-    icon: {fill:"white !important"},
-    text: {color:"white !important"},
-    select:{'&:focus':{color:"red"}}
+icon: {fill:"white !important"},
+text: {color:"white !important"},
+select:{'&:focus':{color:"red"}}
         
 }));
 
@@ -68,7 +68,7 @@ const Header = () => {
             <div className="app-lang-container" >                
                 <div className='app-lang' >
                     <FormControl className={classes.formControl} sx={{ border: 0}} variant="filled"  >
-                        <Select className={classes.select}
+                        <Select className={classes.select} 
                             sx={{backgroundColor:"inherit", borderBottom: 0}}
                             onChange={handleChange}
                             displayEmpty
